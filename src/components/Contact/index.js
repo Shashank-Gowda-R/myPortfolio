@@ -151,7 +151,7 @@ const Contact = () => {
         <meta name="description" content="Mail/ Message/ Call" />
       </Helmet>
       <Wrapper>
-        <Title>Contact</Title>
+        <Title id="contact" >Contact</Title>
         <Desc>Feel free to reach out to me!</Desc>
         <ContactForm ref={form} onSubmit={sendEmail}>
           <ContactTitle>Email Me 📧</ContactTitle>
