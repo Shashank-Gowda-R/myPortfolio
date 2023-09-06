@@ -120,12 +120,13 @@ const Title = styled.div`
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
-  @media (max-width: 960px) {
+  @media (max-width: 985px) {
     text-align: center;
+    font-size: 36px;
   }
 
   @media (max-width: 640px) {
-    font-size: 40px;
+    font-size: 28px;
     line-height: 48px;
     margin-bottom: 8px;
   }
@@ -138,11 +139,12 @@ const TextLoop = styled.div`
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
-  @media (max-width: 960px) {
+  @media (max-width: 985px) {
     text-align: center;
+    font-size: 22px;
   }
   @media (max-width: 640px) {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 48px;
     margin-bottom: 16px;
   }
