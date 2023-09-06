@@ -1,0 +1,20 @@
+{
+    "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
+    "editor.codeLensFontSize": 16,
+    "editor.fontSize": 16,
+    "editor.inlayHints.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.inlayHints.fontSize": 16,
+    "editor.suggestFontSize": 16,
+    "scm.inputFontSize": 16,
+    "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
+    "markdown.preview.fontSize": 16,
+    "notebook.markup.fontSize": 16,
+    "notebook.output.fontSize": 16,
+    "notebook.output.fontFamily": "Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 16,
+    "chat.editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "chat.editor.fontSize": 16
+}
