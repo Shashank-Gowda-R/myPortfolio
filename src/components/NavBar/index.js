@@ -146,7 +146,7 @@ display: flex;
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
 `;
 
-const MobileMenuLinks = styled(LinkR)`
+const MobileMenuLinks = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
@@ -174,7 +174,7 @@ const NavBar = () => {
       <Nav>
         <NavContainer>
           <NavLogo to="/">
-            <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px', cursor: 'pointer' }} href="#" >
+            <a style={{ display: "flex",textDecoration:"none", alignItems: "center", color: "white", marginBottom: '20px', cursor: 'pointer' }} href="#" >
               <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
             </a>
           </NavLogo>
